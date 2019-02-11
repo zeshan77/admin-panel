@@ -1,0 +1,19 @@
+{
+    "name": "zeshan77/zadmin",
+    "description": "A basic laravel admin panel boilerplate equipped with tailwindcss and vuejs.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zeshan Khattak",
+            "email": "zeshan77@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zeshan77\\zAdmin\\": "src/"
+        }
+    }
+}
