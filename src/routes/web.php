@@ -8,4 +8,5 @@ Route::group(['namespace' => 'Zeshan77\zAdmin\Http\Controllers', 'prefix' => 'ad
     });
 
     Route::get('/dashboard', 'DashboardController@index');
+    Route::get('/two_col', 'DashboardController@twoColumns');
 });

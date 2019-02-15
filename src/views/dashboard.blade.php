@@ -1,5 +1,7 @@
 @extends('zadmin::layouts.single_column')
 
 @section('content')
-    <h6>This is dashboard.</h6>
+    <div class="container flex items-center justify-center h-full">
+        <h3>This is original dashboard.</h3>
+    </div>
 @endsection

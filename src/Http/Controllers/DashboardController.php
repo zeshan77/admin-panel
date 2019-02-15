@@ -10,4 +10,9 @@ class DashboardController extends Controller
     {
         return view('zadmin::dashboard');
     }
+
+    public function twoColumns()
+    {
+        return view('zadmin::two_columns');
+    }
 }
