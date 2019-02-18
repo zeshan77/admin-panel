@@ -15,5 +15,12 @@
         "psr-4": {
             "Zeshan77\\zAdmin\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zeshan77\\zAdmin\\zAdminServiceProvider"
+            ]
+        }
     }
 }
